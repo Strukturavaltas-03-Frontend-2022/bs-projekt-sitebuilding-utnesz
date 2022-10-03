@@ -2,30 +2,83 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Mulish', sans-serif;*/
 
-
 * {
-    margin: 0;
-    padding:0 ;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-background: linear-gradient(to right, #dc232c, #764193);
-
+  background-color: #000000;
 }
 
+h1,
+h5 {
+  font-family: "Mulish", sans-serif;
+}
 
+.top {
+  background: linear-gradient(to right, #dc232c, #764193);
+}
 
 .top_container {
-    background-image: url("../img/bg-pattern.png");
-    background-repeat: repeat;
-    height: 100vh;
+  background-image: url("../img/bg-pattern.png");
+  background-repeat: repeat;
+  height: 81vh;
+  font-size: 0.8rem;
+  font-family: "Catamaran", sans-serif;
 }
 
 .navbar-brand {
-    color: #fdcc52
+  color: #fdcc52;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
 }
 
 .nav-link {
-    color: #ffffff
+  color: #d1c5cf;
 }
 
+.nav-link:hover {
+  color: #ffffff;
+}
+
+#first_btn:hover {
+  background-color: #fdcc52;
+}
+
+button {
+  font-family: "Lato", sans-serif;
+}
+
+
+.yellow_container {
+  background-color: #fdcc52;
+  height: 30%;
+  font-family: "Mulish", sans-serif;
+}
+
+.white_container {
+  background-color: #ffffff;
+  height: 30%;
+  font-family: "Mulish", sans-serif;
+}
+
+.line {
+  font-family: "Mulish", sans-serif;
+  border-bottom: 2px solid #c9c9c9;
+}
+
+.mountains {
+  background-color: #000000;
+}
+
+.glasses {
+  background-image: url(/img/bg-cta.jpg);
+  background-position: center;
+  object-fit: scale-down;
+  height: 750px;
+  width: 100vw;
+  opacity: 0.5;
+}
