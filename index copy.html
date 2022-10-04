@@ -22,7 +22,7 @@
 <body>
 
 
-    <div class="top container col-12 p-0">
+    <div class="top container col-12">
         <div class="top_container">
             <div class="nav_container col-8 mx-auto mb-5">
                 <nav class="navbar sticky-top navbar-expand-lg">
@@ -34,13 +34,13 @@
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav ml-auto navbar-nav-scroll">
                                 <li class="nav-item">
-                                  <a class="nav-link" href="#buzz">DOWNLOAD</a>
+                                  <a class="nav-link" href="#">DOWNLOAD</a>
                              </li>
                              <li class="nav-item">
-                                   <a class="nav-link" href="#ufuf">FEATURES</a>
+                                   <a class="nav-link" href="#">FEATURES</a>
                                 </li>
                                 <li class="nav-item">
-                                 <a class="nav-link" href="#wlnf">CONTACT</a>
+                                 <a class="nav-link" href="#">CONTACT</a>
                              </li>
                             </ul>
                         </div>
@@ -49,7 +49,7 @@
             <div class="row col-8 mx-auto my-5">
                 <div class="row align-items-center justify-content-left my-5">
                     <div class="col-6 mx-4 pr-5">
-                        <div class="container h1 col-12 text-white font-weight-lighter ml-4">
+                        <div class="container h1 col-11 text-white font-weight-lighter ml-4">
                             New Age is an app
                             landing page that will
                             help you beautifully
@@ -57,7 +57,7 @@
                             mobile app, or anything <br>
                             else!
                         </div>
-                        <button class="btn col-7 btn-outline-light rounded-pill py-2 px-3 my-5 ml-5 font-weight-lighter"
+                        <button class="btn col-7 btn-outline-light rounded-pill py-3 px-5 my-5 ml-5 font-weight-lighter"
                             id="first_btn">
                             START NOW FOR FREE!
                         </button>
@@ -67,7 +67,7 @@
             </div>
         </div>
     </div>
-    <div class="yellow_container p-5" id="buzz">
+    <div class="yellow_container p-5">
         <div class="big_fonts col-6 mx-auto text-center">
             <h1 class="display-3 mt-5">Discover what all the buzz is about!</h1>
         </div>
@@ -75,14 +75,12 @@
             <h5>Our app is available on any mobile device! Download now to get started!</h5>
         </div>
         <div class="container col-7 mb-5 text-center">
-            <a href="https://play.google.com/store/games"><img class="col-3 p-0" src="./img/google-play-badge.svg"
-                    alt="googla play"></a>
-            <a href="https://www.apple.com/app-store/"><img class="col-3 p-0" src="./img/app-store-badge.svg"
-                    alt="app store"></a>
+            <img class="col-3 p-0" src="./img/google-play-badge.svg" alt="">
+            <img class="col-3 p-0" src="./img/app-store-badge.svg" alt="">
         </div>
     </div>
 
-    <div class="white_container p-5" id="ufuf">
+    <div class="white_container p-5">
         <div class="big_fonts col-6 mx-auto text-center">
             <h1 class=" mt-5 font-weight-light">Unlimited Features, Unlimited Fun</h1>
         </div>
@@ -129,28 +127,26 @@
         <div class="container col-12 m-0 p-0 glasses row align-items-center">
             <div class="col-9 mx-auto pl-5">
                 <div class="col-6 text-white display-2">Stop waiting.</div>
-                <div class="col-7 text-white display-2">Start building.</div>
-                <button class="btn col-3 btn-outline-light rounded-pill py-2 px-0 my-5 ml-3 font-weight-lighter"
+                <div class="col-6 text-white display-2">Start building.</div>
+                <button class="btn col-3 btn-outline-light rounded-pill py-3 px-5 my-5 ml-3 font-weight-lighter"
                     id="first_btn">
                     LET'S GET STARTED!
                 </button>
             </div>
         </div>
     </div>
-    <div class="container yellow_part row col-12 p-0 m-0" id="wlnf">
+    <div class="container yellow_part row col-12 p-0 m-0">
         <div class="row align-items-center col-4 justify-content-center m-auto">
             <div class="h1 font-weight-light">We <i class="fa-solid fa-heart"></i> new
                 friends!</div>
             <div class="row col-7 justify-content-center">
                 <div class="icons"><a href="http://twitter.com"><i
-                            class="h2 p-3 m-1 text-white fa-brands fa-twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
+                            class="h2 p-3 m-1 text-white fa-brands fa-twitter"></i></a>
                 </div>
                 <div class="icons"> <a href="http://facebook.com"><i
-                            class="h2 p-3 m-1 text-white fa-brands fa-facebook-f" data-toggle="tooltip"
-                            data-placement="bottom" title="Facebook"></i></a>
+                            class="h2 p-3 m-1 text-white fa-brands fa-facebook-f"></i></a>
                 </div>
-                <div class="icons"><a href="http://google.com" data-toggle="tooltip" data-placement="bottom"
-                        title="Google"><i
+                <div class="icons"><a href="http://google.com"><i
                             class="h2 p-3 m-1 text-white fa-brands fa-google-plus-g"></i></a>
                 </div>
             </div>
@@ -168,15 +164,5 @@
     </div>
 
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll < 300) {
-            $('.sticky-top').css('background', 'transparent');
-        } else {
-            $('.sticky-top').css('background', 'rgba(0, 0, 0, 0.4)');
-        }
-    });
-</script>
+
 </html>

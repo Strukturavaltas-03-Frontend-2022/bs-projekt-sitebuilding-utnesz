@@ -37,6 +37,10 @@ font-weight: 700;
 
 font-style: normal;*/
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +62,7 @@ h5 {
 .top_container {
   background-image: url("../img/bg-pattern.png");
   background-repeat: repeat;
-  height: 110vh;
+  height: 850px;
   font-size: 0.8rem;
   font-family: "Catamaran", sans-serif;
 }
@@ -73,7 +77,10 @@ h5 {
 
 .nav-link {
   color: #d1c5cf;
+
 }
+
+
 
 .nav-link:hover {
   color: #ffffff;
@@ -95,7 +102,7 @@ button {
 
 .yellow_container {
   background-color: #fdcc52;
-  height: 30%;
+  height: 500px;
   font-family: "Mulish", sans-serif;
 }
 
@@ -140,6 +147,11 @@ button {
   height: 65px;
   text-align: center;
   justify-content: center;
+  opacity: 0.9;
+}
+
+.fa-brands:hover {
+  opacity: 1;
 }
 
 .fa-twitter {
