@@ -2,6 +2,41 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Mulish', sans-serif;*/
 
+/*Muli Italic
+
+font-family: muli, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Muli Regular
+
+font-family: muli, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Muli Bold Italic
+
+font-family: muli, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Muli Bold
+
+font-family: muli, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;*/
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +58,7 @@ h5 {
 .top_container {
   background-image: url("../img/bg-pattern.png");
   background-repeat: repeat;
-  height: 81vh;
+  height: 110vh;
   font-size: 0.8rem;
   font-family: "Catamaran", sans-serif;
 }
@@ -44,14 +79,19 @@ h5 {
   color: #ffffff;
 }
 
+#first_btn {
+  transition-duration: 0.3s;
+}
+
 #first_btn:hover {
   background-color: #fdcc52;
+  border: 1px solid #fdcc52;
 }
 
 button {
   font-family: "Lato", sans-serif;
+  font-size: smaller;
 }
-
 
 .yellow_container {
   background-color: #fdcc52;
@@ -77,8 +117,53 @@ button {
 .glasses {
   background-image: url(/img/bg-cta.jpg);
   background-position: center;
-  object-fit: scale-down;
-  height: 750px;
+  height: 760px;
   width: 100vw;
-  opacity: 0.5;
+}
+
+.icon {
+  color: #a63369;
+}
+
+.yellow_part {
+  height: 35vh;
+  background-color: #fdcc52;
+}
+
+.fa-heart {
+  color: #dd4b39;
+}
+
+.fa-brands {
+  border-radius: 999rem;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  justify-content: center;
+}
+
+.fa-twitter {
+  background-color: #1da1f2;
+}
+
+.fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.fa-google-plus-g {
+  background-color: #dd4b39;
+}
+
+.black_part {
+  background-color: #222222;
+  height: 15vh;
+}
+
+.bottom_link {
+  color: #6c757d;
+}
+
+.bottom_link:hover {
+  color: #fdcc52;
+  text-decoration: none;
 }
