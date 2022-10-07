@@ -42,12 +42,12 @@ h5 {
 }
 
 .nav-link {
-  color: #d1c5cf;
+  color: rgb(209, 197, 207);
 
 }
 
 .nav-link:hover {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 
 #first_btn {
@@ -66,7 +66,6 @@ button {
 
 .yellow_container {
   background-color: #fdcc52;
-  height: 500px;
   font-family: "Mulish", sans-serif;
 }
 
@@ -97,7 +96,6 @@ button {
 }
 
 .yellow_part {
-  height: 35vh;
   background-color: #fdcc52;
 }
 
@@ -142,4 +140,8 @@ button {
 .bottom_link:hover {
   color: #fdcc52;
   text-decoration: none;
+}
+
+.fixNavBar {
+  position: fixed;
 }
