@@ -24,12 +24,12 @@
 
     <div class="top container col-12 p-0">
         <div class="top_container">
-            <div class="nav_container col-8 mx-auto mb-5">
-                <nav class="navbar sticky-top navbar-expand-lg">
+            <div class="nav_container col-12 mx-auto mb-5">
+                <nav class="navbar sticky-top col-8 navbar-expand-lg mx-auto">
                     <a class="navbar-brand" href="#">Start Bootstrap</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon">sdf</span>
+                        <span class="navbar-toggler-icon">Menu</span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarScroll">
                             <ul class="navbar-nav ml-auto navbar-nav-scroll">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </nav>
-            <div class="row col-8 mx-auto my-5">
+            <div class="row col-8 mx-auto mt-5py-5">
                 <div class="row align-items-center justify-content-left my-5">
                     <div class="col-6 mx-4 pr-5">
                         <div class="container h1 col-12 text-white font-weight-lighter ml-4">
@@ -128,8 +128,8 @@
     <div class="mountains">
         <div class="container col-12 m-0 p-0 glasses row align-items-center">
             <div class="col-9 mx-auto pl-5">
-                <div class="col-6 text-white display-2">Stop waiting.</div>
-                <div class="col-7 text-white display-2">Start building.</div>
+                <div class="col-10 text-white display-3">Stop waiting.</div>
+                <div class="col-10 text-white display-3">Start building.</div>
                 <button class="btn col-3 btn-outline-light rounded-pill py-2 px-0 my-5 ml-3 font-weight-lighter"
                     id="first_btn">
                     LET'S GET STARTED!
@@ -141,11 +141,11 @@
         <div class="row align-items-center col-4 justify-content-center m-auto">
             <div class="h1 font-weight-light">We <i class="fa-solid fa-heart"></i> new
                 friends!</div>
-            <div class="row col-7 justify-content-center">
+            <div class="row col-12 justify-content-center">
                 <div class="icons"><a href="http://twitter.com"><i
                             class="h2 p-3 m-1 text-white fa-brands fa-twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
                 </div>
-                <div class="icons"> <a href="http://facebook.com"><i
+                <div class="icons"><a href="http://facebook.com"><i
                             class="h2 p-3 m-1 text-white fa-brands fa-facebook-f" data-toggle="tooltip"
                             data-placement="bottom" title="Facebook"></i></a>
                 </div>
@@ -157,26 +157,85 @@
         </div>
     </div>
     <div class="container black_part row col-12 p-0 m-0">
-        <div class="col-3 mx-auto my-auto">
+        <div class="col-12 mx-auto my-auto">
             <p class="text-secondary text-center">© Your Website 2018. All Rights Reserved.</p>
-            <div class="col-7 mx-auto text-center">
-                <a class="bottom_link" href="">Privacy</a>
-                <a class="bottom_link px-3" href="">Terms</a>
-                <a class="bottom_link" href="">FAQ</a>
+            <div class="col-12 mx-auto text-center">
+
+                
+                <a class="bottom_link" href="" data-toggle="modal" data-target="#exampleModalPrivacy">Privacy</a>
+                <a class="bottom_link px-3" href="" data-toggle="modal" data-target="#exampleModalTerms">Terms</a>
+                <a class="bottom_link" href="" data-toggle="modal" data-target="#exampleModalFAQ">FAQ</a>
             </div>
         </div>
     </div>
+<div class="modal fade" id="exampleModalPrivacy" tabindex="-1" aria-labelledby="exampleModalLabelPrivacy"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabelPrivacy">Privacy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eligendi? Delectus sapiente hic dolorem ea 
+                iste! Consectetur facere modi ad consequuntur dolorem tenetur velit error possimus, ullam mollitia quod reprehenderit.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalTerms" tabindex="-1" aria-labelledby="exampleModalTerms"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalTerms">Terms</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eligendi? Delectus sapiente hic dolorem ea 
+                iste! Consectetur facere modi ad consequuntur dolorem tenetur velit error possimus, ullam mollitia quod reprehenderit.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModalFAQ" tabindex="-1" aria-labelledby="exampleModalFAQ"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalFAQ">FAQ</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eligendi? Delectus sapiente hic dolorem ea 
+                iste! Consectetur facere modi ad consequuntur dolorem tenetur velit error possimus, ullam mollitia quod reprehenderit.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll < 300) {
-            $('.sticky-top').css('background', 'transparent');
-        } else {
-            $('.sticky-top').css('background', 'rgba(0, 0, 0, 0.4)');
-        }
-    });
-</script>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
 </html>

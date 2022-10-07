@@ -2,40 +2,6 @@
 font-family: 'Lato', sans-serif;
 font-family: 'Mulish', sans-serif;*/
 
-/*Muli Italic
-
-font-family: muli, sans-serif;
-
-font-weight: 400;
-
-font-style: italic;
-
-
-Muli Regular
-
-font-family: muli, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
-
-
-Muli Bold Italic
-
-font-family: muli, sans-serif;
-
-font-weight: 700;
-
-font-style: italic;
-
-
-Muli Bold
-
-font-family: muli, sans-serif;
-
-font-weight: 700;
-
-font-style: normal;*/
 
 html {
   scroll-behavior: smooth;
@@ -62,7 +28,7 @@ h5 {
 .top_container {
   background-image: url("../img/bg-pattern.png");
   background-repeat: repeat;
-  height: 850px;
+  height: 110%;
   font-size: 0.8rem;
   font-family: "Catamaran", sans-serif;
 }
@@ -79,8 +45,6 @@ h5 {
   color: #d1c5cf;
 
 }
-
-
 
 .nav-link:hover {
   color: #ffffff;
@@ -124,7 +88,7 @@ button {
 .glasses {
   background-image: url(/img/bg-cta.jpg);
   background-position: center;
-  height: 760px;
+  height: 700px;
   width: 100vw;
 }
 
