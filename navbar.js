@@ -4,41 +4,34 @@ const navbar = document.querySelector(".navbar");
 const navBrand = document.querySelector(".navbar .navbar-brand");
 const navItem = document.querySelectorAll(".navbar-nav .nav-item");
 const navbarToggler = document.querySelector(".navbar-toggler");
-const fixNavBar = document.querySelector(".fixNavBar")
-const navLink = document.querySelector(".nav-link")
+const fixNavBar = document.querySelector(".fixNavBar");
+const navLink1 = document.querySelector(".nav-link1");
+const navLink2 = document.querySelector(".nav-link2");
+const navLink3 = document.querySelector(".nav-link3");
+
 
 window.addEventListener("scroll", () => {
     if (window.scrollY !== 0) {
         navbar.style.backgroundColor = "white";
         fixNavBar.style.backgroundColor = "white";
-        navBrand.style.color = "black";
-        navbarToggler.style.color = "black";
+        navBrand.classList.add("buzz");
+        navbarToggler.classList.add("buzz");
         navbarToggler.style.borderColor = "black";
+        navLink1.classList.add("buzz");
+        navLink2.classList.add("buzz");
+        navLink3.classList.add("buzz");
 
 
-        navBrand.addEventListener("mouseover", () => {
-            navBrand.style.color = "#fec947";
-        });
 
-        navBrand.addEventListener("mouseleave", () => {
-            navBrand.style.color = "black";
-        });
     } else {
         navbar.style.backgroundColor = "rgba(0,0,0,0)";
         fixNavBar.style.backgroundColor = "rgba(0,0,0,0)";
-        navBrand.style.color = "#fec947";
-        navbarToggler.style.color = "rgba(209, 197, 207)";
+        navBrand.classList.remove("buzz");
+        navbarToggler.classList.remove("buzz");
         navbarToggler.style.borderColor = "rgba(209, 197, 207)";
- 
-        
-        navBrand.addEventListener("mouseover", () => {
-            navBrand.style.color = "white";
-        });
-
-        navBrand.addEventListener("mouseleave", () => {
-            navBrand.style.color = "#fec947";
-        });
-
+        navLink1.classList.remove("buzz");
+        navLink2.classList.remove("buzz");
+        navLink3.classList.remove("buzz");
     }
 });
 
