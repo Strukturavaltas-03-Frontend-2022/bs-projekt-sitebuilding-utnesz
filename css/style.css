@@ -33,6 +33,12 @@ h5 {
   font-family: "Catamaran", sans-serif;
 }
 
+@media only screen and (max-width: 992px) {
+  .toptext {
+    text-align: center;
+  }
+}
+
 .navbar-brand {
   color: #fdcc52;
 }
@@ -90,7 +96,7 @@ button {
 }
 
 .glasses {
-  background-image: url(/img/bg-cta.jpg);
+  background-image: url(../img/bg-cta.jpg);
   background-position: center;
   height: 700px;
   width: 100vw;
